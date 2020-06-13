@@ -64,9 +64,19 @@ abstract class Model
     }
 
 
-    protected function getModel(): Selection
+    /**
+     * Get the Context Active Table Selection for a model
+     * Similar to calling $this->db->table('table_name');
+     *
+     * @param string|null $table
+     * @return Selection
+     */
+    protected function getModel(string $table = null): Selection
     {
-        return $this->db->table(($this->table));
+        if ($table === null) {
+            return $this->db->table(($this->table));
+        }
+        return $this->db->table($table);
     }
 
 
