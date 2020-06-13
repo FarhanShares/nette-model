@@ -1,7 +1,7 @@
 {
     "name": "farhanianz/nette-model",
     "type": "extension",
-    "description": "The missing Abstract Model in Nette framework without dependency (external) but with power, flexibility & features you would love to use so much.",
+    "description": "The missing Abstract Model in Nette framework without dependency (except nette) but with power, flexibility & features you would love to use so much.",
     "keywords": [
         "nette",
         "nette-model",
@@ -21,17 +21,17 @@
     ],
     "config": {
     "platform": {
-      "php": "5.6.1"
+      "php": "7.1"
     }
   },
   "require": {
-      "php": ">=7.1",
-      "nette/database": "^3.0",
-      "nette/utils": "^3.0",
-      "ext-json": "*"
+	"php": ">=7.1",
+	"nette/database": "^3.0",
+	"nette/utils": "^3.0",
+	"ext-json": "*"
   },
   "require-dev": {
-		"nette/sandbox": "^3.0@dev"
+	  
   },
   "autoload": {
     "psr-4": {
