@@ -11,7 +11,7 @@ trait ModelConfig
     /**
      * @var Context Nette database explorer
      */
-    private $db;
+    protected $db;
 
     /**
      * Name of database table
