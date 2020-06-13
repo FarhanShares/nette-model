@@ -165,18 +165,27 @@ abstract class Model
         return $eventData['data'];
     }
 
-
+    /**
+     * Find the result or through exception (Or can we redirect to 404 page?)
+     * @todo: fix & update on: v1.x
+     */
+    /*
     public function findOrFail()
     {
 
     }
-
-
+    */
+    
+    /**
+     * Find the result or null (Or can we show an empty/no result page?)
+     * @todo: fix & update on: v1.x
+     */
+    /*
     public function findOrEmpty()
     {
 
     }
-
+    */
 
     //--------------------------------------------------------------------
     // ADVANCED FINDERS
@@ -222,17 +231,13 @@ abstract class Model
      *
      * @return boolean
      * @throws ModelException
-     * @todo: fix & update
+     * @todo: fix & update on: v1.x
      */
-    public function save($data): bool
-    {
-        if (empty($data)) {
-            return true;
-        }
-
-        
+   /*
+   public function save($data): bool
+    {   
     }
-
+   */
 
     /**
      * Inserts data into the current table.
@@ -401,6 +406,7 @@ abstract class Model
      *
      * @return array
      * @throws ModelException
+     * @todo: not tested, probably not work
      */
     protected function doProtectFields(array $data): array
     {
@@ -478,7 +484,6 @@ abstract class Model
      * @return mixed
      * @todo: complete the simple event system
      */
-    //todo: fix TRIGGER
     protected function trigger(string $event, array $eventData)
     {
         // Ensure it's a valid event
