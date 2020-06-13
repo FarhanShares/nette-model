@@ -1,36 +1,37 @@
 {
-    "name": "farhanianz/nette-model",
-    "type": "extension",
-    "description": "The missing Abstract Model in Nette framework without dependency (except nette) but with power, flexibility & features you would love to use so much.",
-    "keywords": [
+	"name": "farhanianz/nette-model",
+	"type": "extension",
+	"description": "The missing Abstract Model in Nette framework without dependency (except nette) but with power, flexibility & features you would love to use so much.",
+	"keywords": [
         "nette",
         "nette-model",
         "nette-database",
         "nette-component",
         "nette-extension"
-    ],
-    "homepage": "https://github.com/farhanianz/nette-model/",
-    "license": "MIT",
-    "authors": [
+    	],
+	"homepage": "https://github.com/farhanianz/nette-model/",
+	"license": "MIT",
+	"authors": [
         {
             "name": "Farhan Ishraaq",
             "email": "dearfarhanianz@gmail.com",
             "homepage": "https://github.com/farhanianz/nette-model/",
             "role": "Developer"
         }
-    ],
-  "require": {
-	"php": ">=7.1",
-	"nette/database": "^3.0",
-	"nette/utils": "^3.0",
-	"ext-json": "*"
-  },
-  "require-dev": {
-	"nette/tester": "^3.0",
-  },
-  "autoload": {
-    "psr-4": {
-      "farhanianz\\NetteModel\\": "src/"
-    }
-  }
+	],
+	"require": {
+		"php": ">=7.1",
+		"nette/database": "^3.0",
+		"nette/utils": "^3.0",
+		"ext-json": "*"
+	},
+	"require-dev": {
+		"nette/tester": "^3.0"
+  	},
+	"autoload": {
+		"psr-4": {
+			"farhanianz\\NetteModel\\": "src/"
+    		}
+  	},
+	"minimum-stability": "stable"
 }
