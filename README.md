@@ -1,25 +1,29 @@
 # nette-model
 The missing Abstract Model in Nette framework without dependency (external) but with power, flexibility &amp; features you would love to use so much. @nette
 
-> Give us a star, it makes us so happy. Thanks ⭐.️
+> Give us a star, it makes us so happy. Thanks ⭐.️ Or contribute with bug report/error-reporting/feature-request/your-thoughts.
 
 Table of contents
 
 - [Installation](#installation)
-	- [Composer](#composer)
 - [Features](#features)
   - [Principals](#principals)
   - [Todo](#todo)
 
 # Installation
-## Composer
+The prefered method of installation is using composer. Don't have yet? Install & you will love using it hopefully. 
+
+Install composer from here:
+```
+https://getcomposer.org/
+```
 
 Download this package using composer:
-
 ```
 composer require farhanianz/nette-model
 ```
-You are good to go. It uses nette/database, if you are connected with your nette framework official packages. Go & write some models.
+
+You are good to go. It uses nette/database. If you are connected to database with your nette framework official packages, go & write some models.
 
 In case, if you don't know how to configure nette database, head over here: 
 - https://doc.nette.org/en/3.0/quickstart/home-page#toc-connecting-to-the-database
@@ -40,24 +44,29 @@ In case, if you don't know how to configure nette database, head over here:
 - Auto-detect table name based on model class
 
 ## Principlals
+- Well documented codes
 - Uses only nette components
 - Keep it minimal but most usable
 - Hassle free usage
 - Extended facilities with minimum impact
+
   
 ## Todo:
   - Advanced Finders
   - Entity Support
 
-
+# Documentation
+Coming soon: untill then you can browse code, it's documented at it's best.
 
 
 
 NB: 
 - Create an issue for feature request. 
+- Write your thoughts on it by creating issue.
+- Inspired From Codeignitet 4. 
 
 Additional Note: 
- - Inspired From Codeignitet4. 
- - Write your thoughts on it. 
- - Contributions are highly welcome & needed. Even if an bug report, feature request, doc writing or anything is appriciated. I spent my times on it, kindly do a little in favor of making the library more usuable & powerful.
+ - Contributions are highly welcome & needed.
+ - Even if an bug report, feature request, doc writing or anything is appriciated.
+ - I spent my times on it, kindly do a little in favor of making the library more usuable & powerful.
  
