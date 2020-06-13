@@ -34,7 +34,14 @@ abstract class Model
         $this->model = $this->getModel();
     }
 
-
+    /**
+     * Get the table associated with a model based on the model class name.
+     * If you use different table use setTable()
+     *
+     * Eg: UserModel.php -> Table Name: User
+     *
+     * @return string
+     */
     protected function getTable(): string
     {
         preg_match('#(\w+)Model$#', get_class($this), $m);
@@ -43,7 +50,8 @@ abstract class Model
 
 
     /**
-     * Specify the table associated with a model
+     * Specify the table name associated with a model.
+     * You can change table on the runtime using setTable().
      *
      * @param string $table
      *
