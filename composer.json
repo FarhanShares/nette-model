@@ -1,0 +1,42 @@
+{
+    "name": "farhanianz/nette-model",
+    "type": "extension",
+    "description": "The missing Abstract Model in Nette framework without dependency (external) but with power, flexibility & features you would love to use so much.",
+    "keywords": [
+        "nette",
+        "nette-model",
+        "nette-database",
+        "nette-component",
+        "nette-extension"
+    ],
+    "homepage": "https://github.com/farhanianz/nette-model/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Farhan Ishraaq",
+            "email": "dearfarhanianz@gmail.com",
+            "homepage": "https://github.com/farhanianz/nette-model/",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+    "platform": {
+      "php": "5.6.1"
+    }
+  },
+  "require": {
+    "php": ">=5.6",
+    "ext-json": "*"
+  },
+  "archive": {
+    "exclude": [
+      "/examples"
+    ]
+  },
+  "autoload": {
+    "psr-4": {
+      "farhanianz\\NetteModel\\": "src/"
+    }
+  }
+    
+}
