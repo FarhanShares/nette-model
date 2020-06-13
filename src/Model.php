@@ -2,9 +2,7 @@
 
 declare(strict_types=1);
 
-
-namespace App\Models;
-
+namespace Farhanianz\NetteModel;
 
 use App\Models\Story\ModelConfig;
 use Nette\Database\Context;
