@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 
-namespace Farhanianz/NetteModel;
+namespace Farhanianz\NetteModel;
 
 use Exception;
 
