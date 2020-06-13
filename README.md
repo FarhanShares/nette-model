@@ -1,7 +1,8 @@
 # nette-model
 The missing Abstract Model in Nette framework without dependency (external) but with power, flexibility &amp; features you would love to use so much. @nette
 
-> Give us a star, it makes us so happy. Thanks ⭐.️ Or contribute with bug report/error-reporting/feature-request/your-thoughts.
+> Give us a star, it makes us so happy. Thanks ⭐.️  
+> Or contribute with bug report/error-reporting/feature-request/your-thoughts.
 
 Table of contents
 
@@ -11,9 +12,7 @@ Table of contents
   - [Todo](#todo)
 
 # Installation
-The prefered method of installation is using composer. Don't have yet? Install & you will love using it hopefully. 
-
-Install composer from here:
+The prefered method of installation is using composer. Don't have yet? Install & you will love using it hopefully. Install composer from here:
 ```
 https://getcomposer.org/
 ```
@@ -34,29 +33,33 @@ In case, if you don't know how to configure nette database, head over here:
 # Features
 - Basic Finders (Read)
 - Manipulators (Create, Update, Delete)
-- Soft Delete
-- Timestamps Behavior
-- A handful of customization/control variable
+- Soft Delete Behavior.
+- Timestamps Behavior (Keeps track of created_at & updated_at automatically)
+- Overright behaviors at any point.
+- A handful of customization/control variables.
 - 1:1, 1:Many relationships
-- Pagination, Order, No SQL Injection
+- No SQL Injection (Auto Escaping).
+- Auto-detects table name based on model class.
+- Pagination, Sorting & Much more.
 - You get active row with finders, so manipulate any time.
-- All features nette database core & explorer available at any point
-- Auto-detect table name based on model class
+- All features of nette database core & explorer available at any point.
+
 
 ## Principlals
-- Well documented codes
-- Uses only nette components
-- Keep it minimal but most usable
-- Hassle free usage
-- Extended facilities with minimum impact
+- Well documented codes.
+- Hassle free usage.
+- Uses only nette components.
+- Keep it minimal but most usable.
+- Extended facilities with minimum impact.
 
   
 ## Todo:
-  - Advanced Finders
-  - Entity Support
+  - Advanced Finders.
+  - Entity Support.
 
 # Documentation
-Coming soon: untill then you can browse code, it's documented at it's best.
+
+Coming soon: untill then you can browse the codes, it's documented at it's best.
 
 
 
