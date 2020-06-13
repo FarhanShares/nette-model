@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Farhanianz\NetteModel;
 
-use App\Models\Story\ModelConfig;
+use Farhanianz\NetteModel\ModelConfig;
 use Nette\Database\Context;
 use Nette\Database\Table\ActiveRow;
 use Nette\Database\Table\Selection;
